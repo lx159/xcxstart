@@ -1,0 +1,5 @@
+view {
+    with: 100%;
+    height: 40rpx;
+    text-align: center;
+}
