@@ -21,3 +21,55 @@
        name.wxss -- 页面样式               
    ------------------------------------  
   *|  文件名保持一致  必须 |*  
+  
+  什么是  wxml
+ 
+    框架设计的一套标签语言，结合组件 wxs 和事件系统 构建出页面结构
+  
+  语法：
+    
+    <标签名  属性 > 内容 </>  标签里边也可以包含其他标签
+    例如：<view class=“classname” data-name=“A”><view>内容</view></view> 
+    
+  *|  标签必须闭合 大小写敏感 |*  
+  
+  WXML特性：
+  
+    数据绑定  列表渲染  条件渲染 模板引用
+    
+    数据绑定
+    Mustache 语法 变量名加双括号{{message}} 
+    例： <view>{{message}}</view>
+          name.js
+          Page({
+            data:{
+                message:"第一次渲染数据"
+            }
+        })
+        
+    属性绑定
+    
+    <view>
+        <text data-name="{{dataname}}"></text>
+    </view>
+            name.js
+            Page({
+            data:{
+                dataname:"test"
+            }
+        })
+        
+    运算绑定
+    <view hidden=“{{flan ？ true ：false}}”>
+           
+     </view>
+                name.js
+                Page({
+                data:{
+                    flag:false
+                }
+            })     
+  详情见官方文档`
+   *|  组件 属性小写 |*
+     
+        
