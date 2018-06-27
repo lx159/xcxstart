@@ -82,4 +82,4 @@
     selectable 长安是否可选 （默认不可选） space 设置文本空格字符大小  decode 字符编码解码 &nbsp; &lt; &gt; &amp; &apos; &ensp; &emsp;
     
     rich-text 不能够嵌套多个
-    rich-tap 事件流 请看demo 或者查看官方文档
+    rich-tap 事件流 请看demo->pages->richtext 或者 查看官方文档
