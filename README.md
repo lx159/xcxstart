@@ -72,4 +72,14 @@
   详情见官方文档`
    *|  组件 属性小写 |*
      
-        
+  基本组件 
+     
+    icon  图标组件  text 文本组件 rich-text 富文本组件 progress 进度条组件
+    
+    icon  有效值 例：success_no_circle 成功类型图标 info 提示信息  warn警告 cancel取消 clear关闭 
+    
+    text 组件
+    selectable 长安是否可选 （默认不可选） space 设置文本空格字符大小  decode 字符编码解码 &nbsp; &lt; &gt; &amp; &apos; &ensp; &emsp;
+    
+    rich-text 不能够嵌套多个
+    rich-tap 事件流 请看demo 或者查看官方文档

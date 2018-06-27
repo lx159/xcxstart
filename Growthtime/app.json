@@ -1,5 +1,8 @@
 {
   "pages":[
-      "pages/helloworld/helloworld"
+      "pages/helloworld/helloworld",
+      "pages/icon/index",
+      "pages/text/index",
+      "pages/richtext/index"
   ]
 }

@@ -1,0 +1,15 @@
+<view class="btn-area">
+    <view class="body-view">
+        <text aria-selected="true">{{text}}</text>
+        <button bindtap="add">add line</button>
+        <button bindtap="remove">remove line</button>
+    </view>
+</view>
+
+<view class ="btn-area">
+    <view class="body-view">
+        <text selectable="true" space="emsp">
+        {{selectdata}}
+        </text>
+    </view>
+</view>

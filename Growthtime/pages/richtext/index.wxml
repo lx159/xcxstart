@@ -1,0 +1,11 @@
+<rich-text
+    nodes = "{{nodes}}"
+    bindtap = "tap"
+    bindtouchstart = "touchstart"
+    bindtouchmove = "touchmove"
+    bindtouchcancel = "touchcancel"
+    bindtouchend = "touchend"
+    bindlongtap = "longtap"
+>
+
+</rich-text>
