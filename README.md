@@ -83,3 +83,9 @@
     
     rich-text 不能够嵌套多个
     rich-tap 事件流 请看demo->pages->richtext 或者 查看官方文档
+    
+    progress ->进度条 详情见demo->pages->progress 或者 查看官方文档
+  
+  表单组件
+  
+    button ->有时间继续  
